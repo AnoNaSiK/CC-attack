@@ -247,7 +247,8 @@ def CheckerOption():
 	if ans == "":
 		ans = "y"
 	if ans == "y":
-		ms = str(input("> Delay of socks(seconds, default=5				if ms == "":
+		ms = str(input("> Delay of socks(seconds, default=5):"))
+		if ms == "":
 			ms = int(5)
 		else :
 			try:
